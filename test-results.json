@@ -1,0 +1,161 @@
+{
+  "config": {
+    "configFile": "/Users/vishaljha/Desktop/playwright-main/playwright.config.ts",
+    "rootDir": "/Users/vishaljha/Desktop/playwright-main/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/vishaljha/Desktop/playwright-main/globalPlatform.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/vishaljha/Desktop/playwright-main/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/vishaljha/Desktop/playwright-main/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/vishaljha/Desktop/playwright-main/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/vishaljha/Desktop/playwright-main/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/Users/vishaljha/Desktop/playwright-main/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/vishaljha/Desktop/playwright-main/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.45.3",
+    "workers": 10,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "checkPhish/domainMonitoring/annonymousTyposquat.spec.ts",
+      "file": "checkPhish/domainMonitoring/annonymousTyposquat.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Domain Monitoring",
+          "file": "checkPhish/domainMonitoring/annonymousTyposquat.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "To verify the Annonymous Typosquat scan is working ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 150000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 98141,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-09-11T12:33:34.126Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/vishaljha/Desktop/playwright-main/test-results/checkPhish-domainMonitorin-b98a2--Typosquat-scan-is-working--chromium/test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/vishaljha/Desktop/playwright-main/test-results/checkPhish-domainMonitorin-b98a2--Typosquat-scan-is-working--chromium/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d35430f56a0ba58fffdb-e6e3bdcb5124b48e480c",
+              "file": "checkPhish/domainMonitoring/annonymousTyposquat.spec.ts",
+              "line": 14,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-09-11T12:33:31.882Z",
+    "duration": 100813.451,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

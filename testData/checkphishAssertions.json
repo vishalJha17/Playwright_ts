@@ -1,0 +1,20 @@
+{
+  "account_header_text": "Account",
+  "profile_info_text": "Profile Information",
+  "notification_settings_text": "Notification Settings",
+  "security_privacy_text": "Security & Privacy",
+  "logout_text": "Logout",
+  "primary_email_text": "Primary Email",
+  "primary_tag_text": "Primary",
+  "subscription_text": "Subscription",
+  "subscription_plan_text": "Plan:",
+  "subscription_essential_api_text": "Essential API",
+  "scan_limit_text": "25 scans per day, 250 scans per month",
+  "upgrade_text": "Upgrade",
+  "work_email_text": "Work Email",
+  "work_email_add_button_text": "Add Email",
+  "work_email_added_verified_text": "Verified",
+  "api_key_text": "API Key:",
+  "api_documentation_text": "API Documentation:",
+  "theme_preference_text": "Theme Preferences:"
+}

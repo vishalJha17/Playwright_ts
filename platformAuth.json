@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "m",
+      "value": "107416bf-a4f0-46a8-a488-386e0f346d4b5e23dd",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1760618005.120746,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "b909f926-7b87-4109-9efb-f2918a50ef1c0786a2",
+      "domain": ".platform.bolster.ai",
+      "path": "/",
+      "expires": 1757594005,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "64f0722d-a9ed-43af-8536-c75004296734852327",
+      "domain": ".platform.bolster.ai",
+      "path": "/",
+      "expires": 1726059805,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_csrf",
+      "value": "lT96XoVFPPeK7UqaBN1fVoaP",
+      "domain": "platform.bolster.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "hO1jptonfHNLiXDC2dDSe2eKN373Bl2JqhpfZy8gcqo-1726058001-1.0.1.1-waZn9LW0fiQCWIfUK46SLAsv1yu6u9a3IueH.gMoftDxp0nEYO0LoNqD8uIdnynUdAW6oEQ7tKsPpxOft_BOHQ",
+      "domain": ".bolster.ai",
+      "path": "/",
+      "expires": 1726059801.216279,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tau",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzgyMzQsImV4cCI6MTcyNzI2NzYwMjQ0MywiaWF0IjoxNzI2MDU4MDAyfQ.mLyhoydS15j8ZQWhQUloocgdVfrlJoPQak4eU3ZKTqE",
+      "domain": "platform.bolster.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://platform.bolster.ai",
+      "localStorage": [
+        {
+          "name": "bolsterStorage",
+          "value": "{\"cpLastVisitedTs\":1726057999642,\"isTabHidden\":false,\"onSameDomain\":true,\"showTeamView\":false,\"currentActiveUrl\":\"\",\"lastVisitedPageCheckPhish\":\"/[object Object]\",\"bolsterPreviousUrl\":\"/[object%20Object]\",\"sessionExpiration\":1727267602443,\"sessionInActiveLimit\":600000,\"userLatestActivity\":1726058003029,\"isLoggedIn\":true}"
+        }
+      ]
+    }
+  ]
+}

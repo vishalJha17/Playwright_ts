@@ -1,0 +1,24 @@
+{
+  "firstTimeUser": {
+    "email": "vishal.jha9007+001@gmail.com",
+    "password": "qwertyuiop",
+    "userId": "18323"
+  },
+  "secondTimeUser": {
+    "email": "checkphishtest@gmail.com",
+    "password": "Test@123321",
+    "userId": "18194"
+  },
+  "invalidUser": {
+    "email": "invalidlogin1@gmail.com",
+    "password": "invalidLogin@123"
+  },
+  "msCreds": {
+    "email": "testcheckphish@bolster.ai",
+    "password": "Salm0nF!sh"
+  },
+  "googleSso": {
+    "email": "bolstertest003@gmail.com",
+    "password": "Test@123321"
+  }
+}

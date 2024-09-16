@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "_csrf",
+      "value": "aoT7Oulp5NmrggQxPr8yi81I",
+      "domain": "app.checkphish.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "m",
+      "value": "f56d34ba-200b-4320-908b-2a638209812284214f",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1760526926.312867,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "9b549b04-1166-44d0-8b36-9471d2c344a3fbb752",
+      "domain": ".app.checkphish.ai",
+      "path": "/",
+      "expires": 1757502926,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "6f6ef8ca-835c-44fc-bbcc-77325ecb01895d1d35",
+      "domain": ".app.checkphish.ai",
+      "path": "/",
+      "expires": 1725968726,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "tau",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDk1MzQsImV4cCI6MTcyNzE3NjUyNzczOSwiaWF0IjoxNzI1OTY2OTI3fQ.TgpflLD3HUcn_ZPGiYylzwK0WuQO6U3VZDmhhD8Gh4g",
+      "domain": "app.checkphish.ai",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.checkphish.ai",
+      "localStorage": [
+        {
+          "name": "bolsterStorage",
+          "value": "{\"cpLastVisitedTs\":\"2024-09-10T11:15:28.502Z\",\"isTabHidden\":false,\"onSameDomain\":true,\"showTeamView\":false,\"currentActiveUrl\":\"\",\"lastVisitedPageCheckPhish\":\"\",\"sessionExpiration\":1727176527739,\"sessionInActiveLimit\":600000,\"userLatestActivity\":1725966927949,\"isLoggedIn\":true}"
+        }
+      ]
+    }
+  ]
+}
