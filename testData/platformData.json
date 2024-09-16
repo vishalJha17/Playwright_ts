@@ -1,0 +1,45 @@
+{
+  "platform-api": {
+    "email": "testcheckphish@bolster.ai",
+    "password": "Test@123321",
+    "invalidEmail": "test.bolster@bolster.ai",
+    "ssoProviderId": "375",
+    "user_source": "",
+    "number": "123456789",
+    "brand": "booking"
+  },
+  "platform": {
+    "ssoProviderId": "375",
+    "user_source": "",
+    "number": "123456789",
+    "brand": "booking",
+    "invalid_email": "test.user1@bolster.ai",
+    "invalid_password": "inavlidpassword",
+    "expectedTabNames": [
+      "Insights",
+      "Threat Intelligence",
+      "TimeLine",
+      "Dom Tree",
+      "Whois Info"
+    ],
+    "insights_page": "https://platform-stage.bolster.ai/web/insights/1700393655802/e00c6b58ee6b7519743be2791298f74703c56215524e696ab7aae34f8a14b0e0",
+    "selectModuleReports": ["Web", "Social Media", "Dark Web", "App Store"],
+    "selectDateRangeReports": [
+      "Last 30 days",
+      "Last 90 days",
+      "Last 180 days",
+      "Year To Date",
+      "2023",
+      "2022"
+    ],
+    "getReportData": "https://platform-stage.bolster.ai/platform-api/v1/brand-report/get-brand-report",
+    "contentTypepdf": "application/pdf",
+    "downloadCSV": "https://platform-stage.bolster.ai/api/v1/brand/build-table-data-csv/",
+    "contentTypeCSV": "text/csv",
+    "suspiciousUrl": "/bulk-scan/insights/1713955613006/b4d671bd83530715f076e3871edf9c9ff1b4687b57be7c2b396be6325fbc8b30"
+  },
+  "okta": {
+    "email": "redmarlinlabs+apple@gmail.com",
+    "password": "redmarlinapple"
+  }
+}

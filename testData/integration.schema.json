@@ -1,0 +1,95 @@
+{
+  "type": "object",
+  "required": ["result"],
+  "additionalProperties": true,
+  "properties": {
+    "result": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "brandId",
+        "details",
+        "connectorTypeId",
+        "createdBy",
+        "createdAt",
+        "connectorType"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "brandId": {
+          "type": "integer"
+        },
+        "details": {
+          "type": "object",
+          "required": [
+            "method",
+            "url",
+            "selectedIntegration",
+            "header",
+            "form",
+            "body"
+          ],
+          "additionalProperties": true,
+          "properties": {
+            "method": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "selectedIntegration": {
+              "type": "string"
+            },
+            "header": {
+              "type": "array"
+            },
+            "form": {
+              "type": "array"
+            },
+            "body": {
+              "type": "string"
+            }
+          }
+        },
+        "connectorTypeId": {
+          "type": "integer"
+        },
+        "createdBy": {
+          "type": "integer"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "connectorType": {
+          "type": "object",
+          "required": ["id", "key", "label", "doc_url", "details"],
+          "additionalProperties": true,
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "key": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "doc_url": {
+              "type": "string"
+            },
+            "details": {
+              "type": "null"
+            }
+          }
+        }
+      }
+    }
+  }
+}

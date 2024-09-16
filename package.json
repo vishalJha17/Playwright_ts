@@ -1,0 +1,24 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prodRegression": "version=platformProd npx playwright test /tests/platformUI --project chromium",
+    "checkphishRegression": "version=checkphishProd npx playwright test /tests/checkPhish --project firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.10.5",
+    "playwright": "^1.40.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "ajv": "^8.17.1"
+  }
+}
